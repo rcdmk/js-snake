@@ -1,8 +1,15 @@
 {
   "name": "js-snake",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "serve"
+  },
   "repository": "https://github.com/rcdmk/js-snake",
   "author": "RCDMK <rcdmk@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
 }
